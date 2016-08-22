@@ -1,0 +1,19 @@
+/* reset */
+body {
+  background-color: #eaeaea;
+  color: #5f5f5f;
+  font-family:\5FAE\8F6F\96C5\9ED1,Verdana,Arial;
+  font-size: 16px;
+}
+body, div, ul, li, img {
+  border: 0px none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+/* base */
+.fl { float: left }
+.fr { float: right }
