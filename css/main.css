@@ -33,18 +33,24 @@
   background-color: #fff;
   padding: 0px 16% 40px 16%;
 }
-.image-box {
-  background-color: #333;
-}
 .image-slides {
-  height: 480px;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+  text-align: center;
 }
 .introduction {
   height: 400px;
 }
 .introduction div {
   height: 100%;
-  width: 50%;
+}
+.introduction .article {
+  width: 40%;
+}
+.introduction .image-box {
+  width: 60%;
 }
 .introduction img {
   height: 100%;
@@ -65,13 +71,13 @@
 .pop-box .declaration {
   background-color: cornflowerblue;
   height: 100%;
-  padding: 10px 5%;
+  padding: 40px 5%;
   width:40%;
 }
 .pop-box .contact {
   background-color: deepskyblue;
   height: 100%;
-  padding: 10px 5%;
+  padding: 40px 5%;
   width:40%;
 }
 
