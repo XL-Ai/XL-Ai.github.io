@@ -23,4 +23,4 @@ a {
 /* base */
 .fl { float: left; }
 .fr { float: right; }
-.br { border-right: 1px solid #000; }
+.br-1-dot { border-right: 1px dotted #000; }

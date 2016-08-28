@@ -26,7 +26,12 @@
   <script>
     jQuery(function($) {
       // setup slidizle
-      $('[data-slidizle]').slidizle();
+      $('[data-slidizle]').slidizle({
+        pauseOnHover: true,
+        timeout: 3000,
+        autoPlay: true,
+        loop: true
+      });
     });
   </script>
 </head>
@@ -64,6 +69,8 @@
         <li class="slider-navigation-item" style="background-image:url('img/instrument_principle_001.png')">
         </li>
       </ul>
+      <div class="slidizle-loading">
+      </div>
     </div>
     <div id="products" class="introduction products">
       <div class="image-box fl">
@@ -137,9 +144,9 @@
     </div>
     <div class="footer-navigator">
       <ul class="navigator">
-        <li class="fl"><a href="#products">产品展示</a></li>
-        <li class="fl"><a href="#company">公司介绍</a></li>
-        <li class="fl"><a href="#league">加盟商展示</a></li>
+        <li class="fl br-1-dot"><a href="#products">产品展示</a></li>
+        <li class="fl br-1-dot"><a href="#company">公司介绍</a></li>
+        <li class="fl br-1-dot"><a href="#league">加盟商展示</a></li>
         <li class="fl"><a href="#contact">联系我们</a></li>
       </ul>
     </div>
