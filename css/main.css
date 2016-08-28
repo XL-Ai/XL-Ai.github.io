@@ -14,12 +14,11 @@
   border-right: 1px solid #eaeaea;
   padding: 15px 64px 15px 0px;
 }
-.navigator {
+.nav-container .navigator {
   color: #333;
   font-size: 18px;
   height: 80px;
   line-height: 80px;
-  list-style: none;
   padding-left: 32px;
 }
 .navigator li {
@@ -36,29 +35,72 @@
 .image-slides {
   position: relative;
   width: 100%;
-  height: 0;
-  padding-bottom: 56%;
+  height: 560px;
   text-align: center;
+}
+.image-slides .slider-item img{
+  height: 100%;
+}
+.image-slides .slider-control {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  height: 80px;
+  line-height: 80px;
+  width: 60px;
+}
+.image-slides .slider-next {
+  right: 0px;
+}
+.image-slides .slider-previous {
+  left: 0px;
 }
 .introduction {
   height: 400px;
+  width: 100%;
 }
 .introduction div {
   height: 100%;
 }
 .introduction .article {
   width: 40%;
-}
+  padding: 32px 20px;
+ }
 .introduction .image-box {
   width: 60%;
 }
-.introduction img {
+.introduction .image-box img {
   height: 100%;
   width: 100%;
+}
+.introduction div.paragraph-header {
+  height: auto;
+  margin-right: 8px;
+}
+.article .article-header {
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.article-header img {
+  float: left;
+  height: 40px;
+  margin-right: 16px;
+}
+.article li {
+  list-style: disc inside;
+}
+.back-to-top {
+  background-color: #fefcfd;
+  padding: 12px 0;
+  text-align: center;
 }
 /* footer */
 .footer {
   height: 360px;
+  position: relative;
 }
 .pop-box {
   background-color: #fff;
@@ -68,16 +110,23 @@
   position: relative;
   width: 68%;
 }
-.pop-box .declaration {
-  background-color: cornflowerblue;
+.pop-box .declaration,.contact {
+  border: 1px solid #000;
+  border-width: 1px 0px;
   height: 100%;
-  padding: 40px 5%;
-  width:40%;
+  padding: 40px;
+  width:50%;
 }
-.pop-box .contact {
-  background-color: deepskyblue;
-  height: 100%;
-  padding: 40px 5%;
-  width:40%;
+.footer-navigator {
+  bottom: -40px;
+  position: absolute;
+  width: 100%;
 }
-
+.footer-navigator .navigator{
+  color: #666;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px auto;
+  width: 400px;
+}
